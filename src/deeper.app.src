@@ -1,0 +1,14 @@
+{application, deeper,
+ [
+  {description, "An Erlang library for working with deep data structures"},
+  {vsn, "1"},
+  {modules, [ deeper_maps
+            , deeper_ejson
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
